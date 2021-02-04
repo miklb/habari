@@ -1,0 +1,15 @@
+{
+    "name": "miklb/habari",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Michael Bishop",
+            "email": "miklb@miklb.com"
+        }
+    ],
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "phpcompatibility/php-compatibility": "*"
+    }
+}

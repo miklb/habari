@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="habari-indielite">
+    <description>Coding standards for my fork of Habari.</description>
+
+    <arg name="extensions" value="php"/>
+    <!-- Show sniff codes in all reports, and progress when running -->
+    <arg value="sp"/>
+    <!-- Strip the filepaths down to the relevant bit. -->
+    <arg name="basepath" value="."/>
+
+    <file>.</file>
+    <exclude-pattern>*/.github/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
+    <rule ref="PHPCompatibility"/>
+    <config name="testVersion" value="7.2-"/>
+
+    <rule ref="PSR12">
+    </rule>
+</ruleset>
